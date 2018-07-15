@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="NotGeneratedCode" pattern="(file[Front.Client]:types//*||file[Front.Client]:stories//*||file[Front.Client]:src//*||file[Front.Client]:.storybook//*)&amp;&amp;!file[Front.Client]:src/Domain/EDI//*||file:src/Domain/EDI/*Injection.tsx||file:src/Domain/EDI/*ApiFake.tsx||file:src/Domain/EDI/*Utils.tsx||file:src/Domain/EDI/*Extensions.tsx" />
+</component>
