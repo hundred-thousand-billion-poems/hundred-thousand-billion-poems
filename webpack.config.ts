@@ -40,7 +40,10 @@ const config: webpack.Configuration = {
                       use: [
                           "classnames-loader",
                           "style-loader",
-                          { loader: "css-loader", options: { modules: true } },
+                          {
+                              loader: "css-loader",
+                              options: { modules: true, localIdentName: "[name]-[local]-[hash:base64:3]" },
+                          },
                           "postcss-loader",
                           "less-loader",
                       ],
